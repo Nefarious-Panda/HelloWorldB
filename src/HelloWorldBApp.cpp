@@ -28,7 +28,7 @@ void HelloWorldBApp::update()
 void HelloWorldBApp::draw()
 {
 	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) ); 
+	gl::clear( Color( 2.0, 0, 0 ) ); 
 }
 
 CINDER_APP_BASIC( HelloWorldBApp, RendererGl )
